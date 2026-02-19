@@ -1,23 +1,16 @@
-# dribbble-app
-This high-fidelity Dribbble recreation features a pixel-perfect React dashboard. Using a #FBFBFE palette and useState for seamless Login/Dashboard switching, it ensures a smooth SPA experience. Built with Tailwind CSS, it includes real-time filtering and modular components for easy scaling.
-# HelpDesk.ai Dashboard
+# React + Vite
 
-## 🚀 Live Demo
-**Link:** [ "https://candid-fairy-525258.netlify.app/" ]
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Key Features🗝️🔑
-​Premium UI/UX: Matches the Dribbble aesthetic using a soft #FBFBFE palette and clean typography.
-​State-Driven Navigation: Seamless toggle between the Login Page and Dashboard Overview using React useState.
-​Real-time Search: Search bar functionality to filter tickets by User Name or ID without page reloads.
-​Dynamic Status Tags: Visual indicators for 'Open', 'In Progress', and 'Resolved' statuses using conditional rendering.
-​Fully Responsive: Optimized layout for different screen sizes with a fixed sidebar and scrollable content.
+Currently, two official plugins are available:
 
-​🛠️ Tech Stack
-​Frontend: React.js (Vite)
-​Styling: Tailwind CSS (Utility-first approach)
-​Icons: Lucide-React
-​Deployment: Netlify
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-​⚙️ Installation
-1.​Install dependencies: npm install
-2.​Run project: npm run dev
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
